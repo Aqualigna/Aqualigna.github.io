@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: 关于 About
 permalink: /
 subtitle: 一名普通的本科生 A normal undergraduate
 
