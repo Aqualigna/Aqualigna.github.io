@@ -7,10 +7,10 @@ dropdown: true
 children:
   - title: 仓库 Repositories
     permalink: /repositories/
-  # - title: divider
+  - title: divider
   - title: 项目 Projects
     permalink: /projects/
-  # - title: divider
+  - title: divider
   - title: 博客 Blog
     permalink: /blog/
 ---
