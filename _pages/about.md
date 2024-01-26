@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>中国 北京</p>
+    <p>中国 北京</p><br/>
     <p>Beijing, China</p>
 
 news: true # includes a list of news items
