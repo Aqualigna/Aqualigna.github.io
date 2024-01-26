@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 更多
+title: 更多 More
 nav: true
 nav_order: 5
 dropdown: true
@@ -13,5 +13,4 @@ children:
   - title: divider
   - title: 博客 Blog
     permalink: /blog/
-  - title: divider
 ---
