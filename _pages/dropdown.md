@@ -2,12 +2,11 @@
 layout: page
 title: 更多 More
 nav: true
-nav_order: 5
+nav_order: 4
 dropdown: true
 children:
-  - title: 发表著作 Publications
-    permalink: /publications/
-  - title: divider
+  - title: 仓库 Repositories
+    permalink: /repositories/
   - title: 项目 Projects
     permalink: /projects/
   - title: divider
