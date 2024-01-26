@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: A normal undergraduate
+subtitle: 一名普通的本科生 A normal undergraduate
 
 profile:
   align: right
