@@ -2,10 +2,10 @@
 layout: page
 permalink: /learning/
 title: 学习 Learning
-description: Materials for courses you learn. Replace this text with your description.
+description: 这个页面展示我曾学习过的课程. This page shows the courses I have learnt.
 nav: false
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+# 2020年春学期（2020 Spring)
 
-Organize your courses by years, topics, or universities, however you like!
+# 2020年秋学期（2020 Fall）
