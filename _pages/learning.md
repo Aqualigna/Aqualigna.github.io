@@ -2,9 +2,9 @@
 layout: page
 title: 学习 Learning
 permalink: /learning/
-description: A growing collection of your cool projects.
+description: A growing collection of your cool learning projects.
 nav: false
-display_categories: [learnpuremath]
+display_categories: [基础数学]
 horizontal: false
 ---
 
