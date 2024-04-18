@@ -2,36 +2,36 @@
 layout: page
 title: 学习 Learning
 permalink: /learning/
-description: A growing collection of your cool learning projects.
+description: A growing collection of your cool learning learning.
 nav: false
 display_categories: [基础数学]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/learning.md -->
 
-<div class="projects">
+<div class="learning">
 {% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
+  <!-- Display categorized learning -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  {% assign categorized_learning = site.learning | where: "category", category %}
+  {% assign sorted_learning = categorized_learning | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
+    {% for project in sorted_learning %}
+      {% include learning_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
+    {% for project in sorted_learning %}
+      {% include learning.liquid %}
     {% endfor %}
   </div>
   {% endif %}
@@ -39,9 +39,9 @@ horizontal: false
 
 {% else %}
 
-<!-- Display projects without categories -->
+<!-- Display learning without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_learning = site.learning | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 
@@ -49,8 +49,8 @@ horizontal: false
 
   <div class="container">
     <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
+    {% for project in sorted_learning %}
+      {% include learning_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
@@ -58,8 +58,8 @@ horizontal: false
 {% else %}
 
   <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
+    {% for project in sorted_learning %}
+      {% include learning.liquid %}
     {% endfor %}
   </div>
 
