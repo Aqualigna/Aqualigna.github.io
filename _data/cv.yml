@@ -15,10 +15,9 @@
       items:
         - Description 1.
         - Description 2.
-    - title: Topic 2.
+    - title: 算术几何，数论 \n Arithmetic Geometry, Number Theory
       items:
-        - Description 1.
-        - Description 2.
+        - 岩泽理论 Iwasawa Theory
 
 - title: 教育经历 Education
   type: time_table
@@ -33,6 +32,22 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
+
+- title: 访问经历 Visiting Experience
+  type: time_table
+  contents:
+    - title: 待续
+      institution: 待续
+      year: 待续
+      description:
+        - 待续
+
+- title: 荣誉与奖项 Honors and Awards
+  type: time_table
+  contents:
+    - year: 2021
+      items:
+        - 待续 to be continued
 
 - title: 助教经历 Tutoring Experience
   type: time_table
@@ -58,22 +73,6 @@
             - "教材：《计算思维：计算机科学的一种观点》"
             - 'Material: <a href="https://link.springer.com/book/10.1007/978-981-16-3848-0"> Computational Thinking： A Perspective on Computer Science </a>'
             - "授课语言：Go, HTML, JavaScript"
-
-- title: 访问经历 Visiting Experience
-  type: time_table
-  contents:
-    - title: 待续
-      institution: 待续
-      year: 待续
-      description:
-        - 待续
-
-- title: 荣誉与奖项 Honors and Awards
-  type: time_table
-  contents:
-    - year: 2021
-      items:
-        - 待续 to be continued
 
 - title: 其他
   type: list
