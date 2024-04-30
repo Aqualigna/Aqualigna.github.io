@@ -15,10 +15,9 @@
       items:
         - Description 1.
         - Description 2.
-    - title: Topic 2.
+    - title: 算术几何，数论 Arithmetic Geometry, Number Theory
       items:
-        - Description 1.
-        - Description 2.
+        - 岩泽理论 Iwasawa Theory
 
 - title: 教育经历 Education
   type: time_table
@@ -41,6 +40,16 @@
       institution: 中国科学院大学 University of Chinese Academy of Sciences
       year: 2021
       description:
+        - title: 答疑助教 Academic Support Assistant
+      institution: 中国科学院大学 University of Chinese Academy of Sciences
+      year: 2024
+      description:
+        - title: 线性代数II-B
+          contents:
+            - '主讲教师：<a href="http://www.mmrc.iss.ac.cn/~zmli/">李子明</a> 研究员'
+            - "Instructor: Ziming Li"
+            - "教材：《基础代数（第二卷）》"
+            - "Material: Basic Algebra (II)"
         - title: CS101 计算机科学导论 Introduction to Computer Science
           contents:
             - '主讲教师: <a href="https://www.ict.ac.cn/sourcedb_ict_cas/cn/jssrck/200909/t20090917_2496752.html">徐志伟</a> 研究员 <a href="https://www.ict.ac.cn/sourcedb_ict_cas/cn/jssrck/201209/t20120913_3643855.html">张家琳</a> 研究员'
@@ -48,16 +57,6 @@
             - "教材：《计算思维：计算机科学的一种观点》"
             - 'Material: <a href="https://link.springer.com/book/10.1007/978-981-16-3848-0"> Computational Thinking： A Perspective on Computer Science </a>'
             - "授课语言：Go, HTML, JavaScript"
-    - title: 答疑助教 Academic Support Assistant
-      institution: 中国科学院大学 University of Chinese Academy of Sciences
-      year: 2024
-      description:
-        - title: 线性代数II-B
-          contents:
-            - '主讲教师：<a href="http://www.mmrc.iss.ac.cn/~zmli/">李子明</a>'
-            - "Instructor: Ziming Li"
-            - "教材：《基础代数（第二卷）》"
-            - "Material: Basic Algebra (II)"
 
 - title: 访问经历 Visiting Experience
   type: time_table
