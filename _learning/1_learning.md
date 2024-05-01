@@ -2,7 +2,7 @@
 layout: page
 title: 随机过程 Stochastic Process
 description: 王东（UCAS）
-img: assets/img/StocProcImg.svg
+img: assets/img/StocProcImg.jpg
 importance: 1
 category: 基础数学
 related_publications: true
