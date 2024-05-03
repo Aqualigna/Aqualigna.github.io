@@ -4,7 +4,7 @@ title: 学习 Learning
 permalink: /learning/
 description: 这些页面展示我学习过的部分课程. These pages show some of the courses I have leanrt.
 nav: false
-display_categories: [基础数学]
+display_categories: [基础数学, 应用数学]
 horizontal: false
 ---
 
